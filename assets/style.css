@@ -23,5 +23,12 @@ main {
     width: 70%;
     margin-left: 10%;
     padding-top: 5%;
+    color: #ffffff;
+    font-size: 18px;
 
+  }
+
+  .card {
+      float: left;
+     margin: 15px;
   }
