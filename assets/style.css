@@ -8,5 +8,5 @@
 
 .background {
     background-image: url(./background01.jpg);
-    background-image: cover;
+    background-size: cover;
   }
