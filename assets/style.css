@@ -1,6 +1,13 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
+* {
+    box-sizing: border-box;
 }
+
+main {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
+
 .navbar-brand {
     font-size: 45px
 
@@ -9,4 +16,12 @@
 .background {
     background-image: url(./background01.jpg);
     background-size: cover;
+  }
+  
+  p{
+    display: block;
+    width: 70%;
+    margin-left: 10%;
+    padding-top: 5%;
+
   }
