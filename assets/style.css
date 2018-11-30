@@ -2,11 +2,27 @@
     box-sizing: border-box;
 }
 
+.navbar-brand{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+form input button {
+    text-align: right;
+    display: block;
+    float: right;  
+}
 main {
     min-height: 100%;
     margin-bottom: -100px;
 }
 
+.content {
+    min-height: calc(100vh - 70px);
+  }
+  .footer {
+    height: 50px;
+  }
 
 .navbar-brand {
     font-size: 45px
@@ -31,4 +47,11 @@ main {
   .card {
       float: left;
      margin: 15px;
+  }
+  .cardtext-right {
+      float:right;
+  }
+
+  .container{
+      width: 60%;
   }
